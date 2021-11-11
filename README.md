@@ -11,6 +11,10 @@
 * Can we reduce the error handling?
 
 * Is this API easy to use? Concurrent case.
+    * A construct to create a thread safe class out of any arbitrary object:
+        https://github.com/eclipse-iceoryx/iceoryx/blob/master/iceoryx_hoofs/include/iceoryx_hoofs/internal/concurrent/smart_lock.hpp
+        This was not presented during the talk but is nevertheless helpful when one would like to create threadsafe objects.
+        The handling is similar to a shared_ptr
 
 * Does the name fit?
     * string implementation for safety critical systems in C++14:
